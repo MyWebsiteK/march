@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    
+<title>NOC Page</title>
+    
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<!-- links color styles on body -->
+ <body link="black" vlink="black" alink="red">
+
+<!-- links -->
+<div class="claro_link">
+<b>NOC Home</b> | <a href= "./AboutUs.html">About US</a>
+</div>
+<!-- primary page link -->
+<a href= "./index.html"></a>
+
+<!-- Username Login --> 
+<div class="topright" color="red">Welcome: Jose Morales!</div>
+	
+ <div>
+ <!-- Logo -->
+ <center><a href= "https://www.claropr.com/personas/">
+ <img src = "Claro_LOGO.png" class="centerlogo"  height = "175" width = "175"
+				alt = "Claro Logo" /></a><center>
+</div>
+
+<!-- Language Buttons -->				
+<div class="container btn-language">
+<button class="btn btn-danger btn-md  mr-3" type="button">English</button>
+<button class="btn btn-danger btn-md type="button">Español</button>
+ </div>
+ 
+ 
+<!-- dropdown -->
+<div class="container">
+  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+  Type of Report
+</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#create">Create New Report Notification</a>
+          <a class="dropdown-item" href="#update">Update Report Notification</a>
+          <a class="dropdown-item" href="#finalize">View Finalized Reports</a>
+        </div>
+      </li>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!-- slideshow -->
+
+
+ <div id="myslide" class="carousel slide" data-ride="carousel">
+     <ul  class="carousel-indicators hidden-xs">
+         <li data-target="#mySlide" data-slide-to="0" class="active"></li>
+         <li data-target="#mySlide" data-slide-to="1"></li>
+         <li data-target="#mySlide" data-slide-to="2"></li>
+     </ul>
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img src="Morro.jpg" alt="morro" width="1100" height="500">
+        </div>
+
+        <div class="carousel-item">
+            <img src="Settlement.jpg" alt="settlement" width="1100" height="500">
+            </div>
+
+            <div class="carousel-item">
+                <img src="Capitolio.jpg" alt="capitolio" width="1100" height="500">
+                </div>
+    </div>
+    
+ <!-- javascript slideshow -->
+ <script>
+ $('.carousel').carousel({
+	interval: 5000
+ })
+ </script>
+
+ 
+</body>    
+</html>

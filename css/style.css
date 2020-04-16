@@ -1,0 +1,345 @@
+a {
+color:black;
+font-size: .83em;
+font-weight: bolder;
+}
+b {
+color:black;
+font-size: .83em;
+font-weight: bolder;
+}
+
+a:hover	{
+text-decoration: none;
+color: black;
+background-color: red
+}
+    
+    
+/*NOCMain.html--------------------------------------------------------------
+----------------------------------*/
+body{
+background: #696969;
+}
+
+
+/*login name*/
+.topright {
+position: absolute;
+top: 15px;
+right: 16px;
+font-size: 18px;
+background-color: white;
+border: solid red;
+}
+   
+/*dropdown-btn*/
+.dropdown {
+list-style: none; 
+background: red; 
+padding: 10px; 
+display: inline-block; 
+left: -250px; 
+top: 100px
+}
+.dropdown .nav-link {
+color:black; 
+text-decoration: none;
+}
+.dropdown .dropdown-menu a{
+color: #000; 
+text-decoration: none;
+}
+.dropdown .btn {
+background: green; 
+color:#fff;
+}
+.dropdown .btn:hover {
+color:#000;
+}
+.dropdown .btn:active {
+color:#000;
+}
+.dropdown .btn:focus { 
+color:#000;
+}
+.dropdown-menu .dropdown-item {
+display: inline-block; 
+width: 100%; 
+padding: 10px 5px;
+}
+.container .dropdown .dropdown-menu a:hover
+{
+color: black;
+background-color: red;
+border-color: black;
+cursor: pointer;
+}
+
+/*slideshow*/
+.carousel-inner img {
+   max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/*image box center*/
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlide {display: none;}
+img {vertical-align: middle;}
+
+/*links size and color*/
+.claro_link {
+	left: 30px;
+  position: absolute;
+  top: 15px;
+  font-size: 30px;
+}
+
+/*button english*/
+square {
+  width: 100px;
+  padding: 10px;
+  border: 5px solid red;
+  margin: 10px;
+  float: right;
+  position: relative; 
+  top: -100px;
+  background: white;
+  font-size: 18px;
+}
+
+/*buttong spanish*/
+square2{
+  width: 100px;
+  padding: 10px;
+  border: 5px solid red;
+  margin: 10px;
+  float: right;
+  position: relative; 
+  top: -100px;
+  background: white;
+  font-size: 18px;
+}
+
+/*button english background change*/
+square:hover{
+  background: red;
+  cursor: pointer;
+}
+
+/*button spanish background change*/
+square2:hover{
+  background: red;
+  cursor: pointer;
+}
+
+/*logo position on the center of page*/
+.centerlogo{
+  position: relative; 
+  top: 4em;
+  filter: brightness(1);
+}
+
+
+/*Login Page --------------------------------------------------------------
+---------------------------------*/
+
+.centerlogo2{
+  position: relative; 
+  top: -90px;
+  filter: brightness(1);
+}
+
+.btn-language {
+    float: right;
+	display: block;
+	margin-top: -50px;
+	right: -900px;
+}
+
+.main-section {
+	margin: 0 auto;
+	margin-top: 200px;
+	padding: 0;
+}
+
+.modal-content {
+	background-color: #696969;
+	opacity: .8;
+	padding: 0 18px;
+	border-radius: 20px;
+	border: solid red;
+}
+
+.user-img img {
+	height: 120px;
+	width: 120px;
+}
+
+.user-img {
+	margin-top: -60px;
+	margin-bottom: 45px;
+}
+
+.form-group {
+	margin-bottom: 25px;
+	position: relative;
+	right: -55px;
+	top:-50px
+}
+
+.form-group input{
+	height: 42px;
+	width: 60%;
+	border-radius: 5px;
+	border: 2px solid red;
+	font-size: 18px;
+	letter-spacing: 2px;
+	text-align: center;
+	color: black;
+}
+
+.form-control {
+	text-align: justify;
+	left: -25px;
+	right: -100px;
+}
+
+.form-input button {
+	width: 40%;
+	margin: 5px 0 25px;
+}
+
+.btn-success {
+	background-color: red;
+	border: 2px solid red;
+	font-size: 19px;
+	border-radius: 5px;
+	padding: 7px 14px;
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+	position: relative;
+	right: 10px;
+	top: -45px;
+}
+
+/* Update Report ----------------------------
+--------------------------------- */
+
+/* size of header */
+.ticket {
+	color:black;
+	font-size: .83em;
+	font-weight: bolder;
+	left: 30px;
+	position: relative;
+	top: 15px;
+}
+
+/* size of label */
+.ticketlabel{
+    font-size: 18px;
+	left: -20px;
+	position: relative;
+	top: 70px;
+	color:black;
+	font-weight: bolder;
+}
+
+/* size of label 2 */
+.ticketlabel2{
+    font-size: 18px;
+	left: -20px;
+	position: relative;
+	top: 150px;
+	color:black;
+	font-weight: bolder;
+}
+
+/* position of label, textfield, comment field and button */
+.form-groupt {
+	position: relative;
+	right: -50px;
+}
+/* size of the font on input */
+.form-groupt input{
+	font-size: 18px;
+}
+
+/* position of textfield */
+.form-controlt {
+	top: 72px;
+	position: relative;
+	left: -10px;
+	border: 2px solid red;
+	height: 45px;
+	width: 15%;
+}
+
+/* position of comment field */
+.form-controlt2 {
+	top: 250px;
+	position: absolute;
+	left: -10px;
+	border: 2px solid red;
+	height: 30px;
+	width: 15%;
+}
+
+/* search button */
+.sbutton{
+	top: 120px;
+	position: absolute;
+	left: -10px;
+    background: #ff6767;
+    color: black;
+    border: 1px solid black;
+    border-radius: 12px;
+    text-shadow: none;
+    height: 50px;
+    width: 70px;
+    font-size: 16px;
+}
+
+/* hover of search button */
+.sbutton:hover{
+    background: red;
+    color: black;
+    border: 1px solid black;
+    border-radius: 12px;
+    text-shadow: none;
+    height: 50px;
+    width: 70px;
+    font-size: 16px;
+}
+
+
+/* close button */
+.sbutton2{
+	top: 250px;
+	left: 270px;
+	position: absolute;
+    background: #ff6767;
+    color: black;
+    border: 1px solid black;
+    border-radius: 12px;
+    text-shadow: none;
+    height: 50px;
+    width: 70px;
+    font-size: 16px;
+}
+
+/* hover of close button */
+.sbutton2:hover{
+    background: red;
+    color: black;
+    border: 1px solid black;
+    border-radius: 12px;
+    text-shadow: none;
+    height: 50px;
+    width: 70px;
+    font-size: 16px;
+}
