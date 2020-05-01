@@ -1,77 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
 
 <title>Update Report Notification</title>
 
-<style>
- body{
-    background: #696969;
- }
+<link rel="stylesheet" href="css/style.css" />
 
-.sbutton{
-    background: #ff6767;
-    color: black;
-    border: 1px solid black;
-    border-radius: 12px;
-    text-shadow: none;
-    height: 50px;
-    width: 70px;
-    font-size: 16px;
-}
-
-.sbutton:hover{
-    background: red;
-    color: black;
-    border: 1px solid black;
-    border-radius: 12px;
-    text-shadow: none;
-    height: 50px;
-    width: 70px;
-    font-size: 16px;
-}
-
-.ticketlabel{
-    font-size: 18px;
-}
-
-
-input[type=text]:focus{
-    padding: 5px 10px;
-    margin: 5px 0;
-    box-sizing: border-box;
-    border: 2px solid black;
-    border-radius: 4px;
-    color: black;
-}
-
-.textfield:focus{
-    border: solid black;
-    padding: 5px 10px;
-    margin: 5px 0;
-    box-sizing: border-box;
-    border-radius: 4px;
-}
-
-</style>
 
 </head>
 <body>
 
-<h2><p>Enter a ticket number</p></h2>
+<h2><p class="ticket">Enter a ticket number</p></h2>
 
-<form action="/action_page.php">
-   <b><label class="ticketlabel" for="number">Ticket Number:</label></b> 
-    <input type="text" id="fname" name="fname"><br><br>
-    <input class="sbutton" type="submit" value="Submit">
-
-<br>
-
-<h3><p>Write the reason for the outage and the time<br> it will take to fix before closing this report:</p></h3>
-    <textarea class="textfield" rows="15" cols="50"></textarea><br><br>
-    <input class="sbutton" type="submit" value="Close">
-
+<form>
+<div class="form-groupt">
+<label class="ticketlabel" for="usr">Ticket Number:</label>
+<input class="form-controlt" type="text">
+<input class="ubutton" type="submit" value="Search">
+</div>
 </form>
+
+<form action="./NOCMain.html">
+<div class="form-groupt2">
+<label class="ticketlabel2" for="comment"> Write the reason for the outage and the time<br> 
+it will take to fix before closing this report:</label>
+	 <textarea class="form-controlt2" id="comment" rows="3"></textarea>
+	<input class="ubutton2" type="submit" value="Close">
+</div>
+</form>
+
+
 
 </body>
